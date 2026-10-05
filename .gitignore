@@ -1,0 +1,29 @@
+# ---- 构建产物 ----
+build/
+cmake-build-*/
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+
+# ---- 离线验证可执行文件（按 README 步骤可随时重新编译）----
+verify/test_filter
+verify/test_filter.exe
+
+# ---- Python 虚拟环境与缓存 ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- IDE / 编辑器本机配置（含本机工具链路径，不入库）----
+.vscode/
+.settings/
+.cache/
+*.user
+
+# ---- CubeMX 临时文件 ----
+mx.scratch
